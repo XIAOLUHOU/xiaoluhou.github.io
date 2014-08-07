@@ -1,0 +1,94 @@
+html {
+    background: #E7E4D3;
+    color: #000;
+}
+body {
+    background: #E7E4D3;
+   /* background-image: url("background.jpg");*/
+    color: #000;
+    font-family: "Calibri",
+                 "DejaVu Sans", "Bitstream Vera Sans",
+                 "Sans Serif", "Sans", "Serif";
+    font-size: 87.5%;
+    line-height: 180%;
+}
+
+div#foot {
+    font-size: 100%;
+    margin-top: 10em;
+    text-align: center;
+    vertical-align: middle;
+    color: #206BA4;
+}
+#foot a:link {
+    text-decoration: none;
+}
+
+div#bodycontent {
+    margin: 0 auto;
+    margin-top: 0px;
+    min-width: 400px;
+    max-width: 800px;
+    /*margin-left: 15%;
+    margin-right: 15%;*/
+    text-align: justify;
+    /*border: 1px solid #bbb;*/
+    /*border-top-left-radius: 2mm;
+    border-top-right-radius: 2mm;*/
+    color: #362B36;
+    background-color: rgba(255, 255, 255, 0.45);
+}
+
+#bodycontent h1, h2, h3, h4, h5 {
+    color: #206BA4;
+}
+
+#bodycontent h3 {
+    margin: 15px;
+    margin-left: 20px;
+}
+
+#bodycontent h4, h5 {
+    margin: 5px;
+    margin-left: 15px;
+}
+
+#bodycontent p, ul, ol {
+    margin: 15px;
+    margin-left: 35px;
+    line-height: 180%;
+}
+
+#bodycontent li {
+    padding-bottom: 15px;
+}
+
+a:link {
+    text-decoration: none;
+    color: #206BA4;
+}
+a:visited {
+    text-decoration: none;
+    color: #2C7FBF;
+}
+a:hover {
+    background: #FFFAC2;
+    text-decoration: none;
+    color: #F00;
+}
+a:focus {
+    background: #FFFAC2 !important;
+    color: #F00;
+}
+
+
+/* Tooltip for jquery ui tooltip */
+.ui-tooltip {
+    width: 40%;
+    border: 1px solid #88b;
+    padding: 5px;
+    background: #EEF7FF;
+    box-shadow: 0 0 12px #99f;
+    line-height: 150%;
+}
+

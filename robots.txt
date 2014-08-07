@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /js/
+Disallow: /css/
+Disallow: /punarbasu_te.pdf
