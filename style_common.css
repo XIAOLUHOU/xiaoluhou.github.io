@@ -13,6 +13,10 @@ body {
     line-height: 180%;
 }
 
+div#blue {
+    color: #206BA4;
+}
+
 div#foot {
     font-size: 100%;
     margin-top: 10em;
